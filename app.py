@@ -11,4 +11,4 @@ consumo_elétrico_mensal = (potência * tempo * 30) / 1000 #kWh
 cálculo_monetário = (consumo_elétrico_mensal * 0.80) #reais (R$)
 
 # Saída
-print (f"O {eletrodoméstico} cria um consumo meclsnsal de, aproximadamente,{consumo_elétrico_mensal: .0f} kWh. Que ao final do mês tem como total aproximado{cálculo_monetário: .2f} R$.")
+print (f"O {eletrodoméstico} tem um consumo de, aproximadamente,{consumo_elétrico_mensal: .0f} kWh/mês, custanto cerca de{cálculo_monetário: .2f} R$ mensais.")
